@@ -1,0 +1,146 @@
+html{
+   font-size: 62.5%;
+}
+
+:root{
+   --Nutmeg: hsl(14, 45%, 36%);
+   --Dark_Raspberry: hsl(332, 51%, 32%);
+
+   --White: hsl(0, 0%, 100%);
+   --Rose_White: hsl(330, 100%, 98%);
+   --Eggshell: hsl(30, 54%, 90%);
+   --Light_Grey: hsl(30, 18%, 87%);
+   --Wenge_Brown: hsl(30, 10%, 34%);
+   --Dark_Charcoal: hsl(24, 5%, 18%);
+   --Titulos: "Young Serif", serif;
+   --text: "Outfit", sans-serif;
+}
+
+
+body{
+   font-size: 1.6rem;
+   background-color: var(--Eggshell);
+
+}
+
+.container-width{
+   max-width: 85rem;
+   margin: 10rem auto;
+}
+
+.container{
+   background-color: var(--White);
+   padding: 3rem;
+   border-radius: 15px;
+}
+
+figure > img{
+   max-width: 100%;
+   border-radius: 15px;
+   margin-bottom: 2.5rem;
+}
+
+.simple-omelette > h1{
+   font-size: 4.8rem;
+   font-family: var(--Titulos);
+   font-weight: 400;
+   margin-bottom: 2rem;
+}
+
+.simple-omelette > .text{
+   font-size: 1.8rem;
+   font-family: var(--text);
+   padding-right: 5rem;
+   font-weight: 500;
+   color: var(--Wenge_Brown);
+   margin-bottom: 2rem;
+   
+}
+
+.preparation{
+   background-color: #d484aa18;
+   padding: 2.5rem;
+   border-radius: 8px;
+   font-family: var(--text);
+}
+
+.preparation > h2{
+   color: var(--Dark_Raspberry);
+   font-size: 2rem;
+   margin-bottom: 1rem;
+
+}
+
+.preparation .list-time{
+   list-style-position: inside;
+   
+}
+
+.list-time li{
+   padding: .5rem;
+   color: var(--Wenge_Brown);
+}
+
+.ingredients > h2, .Instructions > h2, .Nutrition > h2{
+   margin-top: 3rem;
+   font-size: 3rem;
+   font-family: var(--Titulos);
+   font-weight: 400;
+   color: var(--Nutmeg);
+}
+
+.ingredients .list-Ingredients{
+   list-style-position: inside;
+   padding: 2rem 1rem;
+   font-family: var(--text);
+   color: var(--Wenge_Brown);
+}
+
+.list-Ingredients li{
+   padding: .5rem;
+   font-weight: 500;
+}
+
+hr{
+   border: 1px solid rgba(0, 0, 0, 0.062);
+}
+
+.Instructions .list-Instructions{
+   list-style-position: inside;
+   color: var(--Wenge_Brown);
+   font-family: var(--text);
+   padding: 2rem 1rem;
+}
+
+.list-Instructions > li{
+   padding: 0.5rem;
+}
+
+.Nutrition table{
+   width: 100%;
+   font-family: var(--text);
+   color: var(--Wenge_Brown);
+}
+
+
+table > caption{
+   padding: 2rem 0;
+   text-align: start;
+}
+
+table td{
+   padding: 1rem 2.5rem;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.062);
+}
+
+.Nutrition table .td-color{
+   color: var(--Nutmeg);
+   font-weight: 600;
+   
+}
+
+table td{
+   
+}
+
+
